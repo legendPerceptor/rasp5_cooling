@@ -1,0 +1,4 @@
+adafruit-blinka
+adafruit-circuitpython-bme280
+python3-rpi.gpio
+smbus

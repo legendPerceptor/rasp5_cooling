@@ -120,6 +120,12 @@ def setOLEDshow():
     IP = IP.rstrip('\'')
     IP = IP.rstrip('\\n')
 
+    print(CPU)
+    print("temperature:", g_temp)
+    print(MemUsage)
+    print(IP)
+    print()
+
     # Write two lines of text.
     draw.text((x, top), str(CPU), font=font, fill=255)
     draw.text((x+56, top), str(CPU_TEMP), font=font, fill=255)

@@ -1,4 +1,5 @@
 adafruit-blinka
 adafruit-circuitpython-bme280
-python3-rpi.gpio
+adafruit-circuitpython-ssd1306
 smbus
+rpi.gpio

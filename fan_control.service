@@ -1,0 +1,13 @@
+[Unit]
+Description=Fan Control Script
+After=multi-user.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/yuanjian/Research/rasp5_cooling
+ExecStart=/home/yuanjian/Research/BatteryLab/lab_venv/bin/python3 /home/yuanjian/Research/rasp5_cooling/RGB_Cooling_HAT.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

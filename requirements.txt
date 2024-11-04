@@ -3,3 +3,4 @@ adafruit-circuitpython-bme280
 adafruit-circuitpython-ssd1306
 smbus
 rpi.gpio
+pillow
